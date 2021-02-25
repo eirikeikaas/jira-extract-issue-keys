@@ -53,7 +53,7 @@ async function extractJiraKeysFromCommit() {
                 owner: owner,
                 repo: repo,
                 pull_number: prNum
-            });
+            }); 
 
             core.info(pull);
 
